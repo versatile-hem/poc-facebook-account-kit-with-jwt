@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="https://sdk.accountkit.com/en_US/sdk.js"></script>
+<script src="js/fb.js"></script>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<input value="+91" id="country_code" />
+	<input placeholder="phone number" id="phone_number" />
+	<button onclick="smsLogin();">Login via SMS</button>
+	<div>OR</div>
+	<input placeholder="email" id="email" />
+	<button onclick="emailLogin();">Login via Email</button>
+
+	<div class="message">
+		<p>
+		<center>
+			<b>Message Board</b>
+		</center>
+		</p>
+	</div>
+
+</body>
+</html>
+
+ <style>
+            body{
+                font-family: tahoma;
+            }
+            .message {
+                background-color: #222;
+                border: 1px solid #dcdcdc;
+                color: #fff;
+                font-family: tahoma;
+                margin-top: 84px;
+                min-height: 250px;
+                padding: 2px 45px;
+                text-align: left;
+                width: 50%;
+                word-wrap: break-word;
+            }
+        </style>
