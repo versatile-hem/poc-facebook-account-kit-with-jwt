@@ -42,6 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             "/actuator/**",
             "/login/**",
             "/home",
+            "/js/**"
     };
 	
 	@Override
